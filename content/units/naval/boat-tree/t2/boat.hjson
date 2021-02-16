@@ -1,0 +1,31 @@
+
+type: naval
+name: Boat
+description: A stronger version of Plank, codenamed Plank 2.0.
+speed: 3
+boost: true
+health: 825
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: log-wood-planks
+    shootSound: lasershoot
+    reload: 7
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 60
+      }
+    }
+  }
