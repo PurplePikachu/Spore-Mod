@@ -1,9 +1,9 @@
 type: Reconstructor
 name: 1/8 Reconstructor
 description: Upgrades Spore Units to their second tier. Needs water as coolant.
-size: 8
-health: 15465540
-constructTime: 13550
+size: 5
+health: 600
+constructTime: 300
 liquidCapacity: 60
 consumes: {
   power: 4.8
@@ -22,5 +22,6 @@ consumes: {
 upgrades: [
   [needle, spark]
   [Spoinew, Spomember]
+  [Plank, boat]
 ]
 category: units
