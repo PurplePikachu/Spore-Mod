@@ -5,7 +5,7 @@ health: 300
 consumes: {
   power: 5.0
   }
-}
+
 plans: [
   {
     unit: needle
