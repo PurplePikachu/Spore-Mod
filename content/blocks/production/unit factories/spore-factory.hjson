@@ -17,7 +17,7 @@ plans: [
     ]
   }
   {
-    unit: plank
+    unit: Plank
     time: 1000
     requirements: [
       silicon/150
