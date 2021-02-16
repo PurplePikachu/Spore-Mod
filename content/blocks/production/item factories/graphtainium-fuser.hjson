@@ -1,0 +1,32 @@
+
+
+{
+	"type": "GenericCrafter",
+	"name": "Graphtainium Fuser",
+	"description": "Fuses together Graphite and Titanium to Graphtainium.",
+	"outputItem": {"item": "Graphtainium", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 5,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 },
+				{ "item": "graphite", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 50 },
+    { "item": "graphite", "amount": 50 },
+		{ "item": "spore-pod", "amount": 15 },
+	],
+	"category": "crafting",
+	"research": "iron-producer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
