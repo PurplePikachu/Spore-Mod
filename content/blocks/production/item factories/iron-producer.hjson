@@ -3,7 +3,7 @@
 	"type": "GenericCrafter",
 	"name": "Iron Producer",
 	"description": "Refines coal and copper into iron. A bunch.",
-	"outputItem": {"item": "iron", "amount": 7},
+	"outputItem": {"item": "Iron", "amount": 7},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
