@@ -2,6 +2,7 @@ type: UnitFactory
 name: Spore Factory
 description: Water, Earth, Air. All we need is Fire and we complete the Bender square. With that silly talk, produces 3 units.
 health: 300
+size: 3
 consumes: {
   power: 5.0
   }
