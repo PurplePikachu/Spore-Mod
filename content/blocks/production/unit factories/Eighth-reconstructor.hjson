@@ -22,6 +22,6 @@ consumes: {
 upgrades: [
   [needle, spark]
   [Spoinew, Spomember]
-  [Plank, boat]
+  [plank, boat]
 ]
 category: units
