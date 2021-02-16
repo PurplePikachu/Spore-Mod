@@ -9,15 +9,23 @@ consumes: {
 plans: [
   {
     unit: needle
-    time: 1570
+    time: 1000
     requirements: [
       silicon/150
       lead/200
     ]
   }
+  {
+    unit: plank
+    time: 1000
+    requirements: [
+      silicon/150
+      metaglass/200
+    ]
+  }
     {
     unit: Spoinew
-    time: 3600
+    time: 1000
     requirements: [
       silicon/100
     ]
