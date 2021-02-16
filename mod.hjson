@@ -1,8 +1,8 @@
 name: "Purple Mod"
-displayName: "The Purple Mod"
+displayName: "Spore Mod"
 author: PurplePikachu
 description: "A mod. Creates new features. 15 new units, ontop of new blocks. Alpha is now here."
-version: "Alpha 1.0"
+version: "Alpha 1.05"
 minGameVersion: "122.1"
 dependencies: [ ]
 hidden: false
