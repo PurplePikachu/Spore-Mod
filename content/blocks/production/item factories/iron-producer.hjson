@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Iron Producer
+description: Refines Copper and Lead into a big amount of Iron.
+outputItem: {item: Iron, amount: 7}
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 7
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+power: 0.75
+items: {
+items: [
+{item: copper
+amount: 2}
+{item: lead
+amount: 2}
+]
+}
+}
+requirements: [
+{item: copper
+amount: 25}
+{item: lead
+amount: 50}
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+}
