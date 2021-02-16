@@ -1,7 +1,8 @@
 type: Reconstructor
 name: 1/8 Reconstructor
 description: Upgrades Spore Units to their second tier. Needs water as coolant.
-size: 5
+size: 3
+research: spore-factory
 health: 600
 constructTime: 300
 liquidCapacity: 60
