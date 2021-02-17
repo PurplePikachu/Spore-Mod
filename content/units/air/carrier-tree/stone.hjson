@@ -5,7 +5,7 @@ about: "Sorry guys, no more Crate, we got STONE CRATE!"
 payloadCapacity: 120
 speed: 2
 flying: true
-health: 100
+health: 500
 engineOffset: 5
 range: 6
 killshooter: true
