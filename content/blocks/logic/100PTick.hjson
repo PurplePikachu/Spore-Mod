@@ -9,12 +9,12 @@
     "category": "logic",
   "consumes": {
 	"liquid": {
-	"liquid": "Cyrofluid",
+	"liquid": "Nutrient",
 	"amount": 1.2,	
 	}
   },
 	"requirements": [
 	{ "item": "spore", "amount": 9000},
 	],
-    "description": "Codenamed 100PTick, by its name, does 2000 ticks, or 2000t/sec. Because on this game, a tick is 0.05 seconds. Also uses quite a LOT of Cyrofluid."
+    "description": "Codenamed 100PTick, by its name, does 2000 ticks, or 2000t/sec. Because on this game, a tick is 0.05 seconds. Also uses quite a LOT of Nutrient."
 }
