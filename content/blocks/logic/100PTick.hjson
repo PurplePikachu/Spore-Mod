@@ -9,7 +9,7 @@
     "category": "logic",
   "consumes": {
 	"liquid": {
-	"liquid": "cyrofluid",
+	"liquid": "Cyrofluid",
 	"amount": 1.2,	
 	}
   },
