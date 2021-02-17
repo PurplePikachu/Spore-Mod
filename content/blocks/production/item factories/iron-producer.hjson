@@ -1,0 +1,30 @@
+
+{
+	"type": "GenericCrafter",
+	"name": "Iron Producer",
+	"description": "Refines coal and copper into iron. A bunch.",
+	"outputItem": {"item": "Iron", "amount": 7},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 5,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 2 },
+				{ "item": "coal", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "spore-pod", "amount": 15 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

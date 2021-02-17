@@ -23,6 +23,7 @@ weapons: [
       frontColor: FFFFFF
       backColor: FFFFFF
       fragBullets: 10
+      damage: 30
       fragBullet: {
         lifetime: 10
         damage: 30

@@ -2,24 +2,36 @@ type: UnitFactory
 name: Spore Factory
 description: Water, Earth, Air. All we need is Fire and we complete the Bender square. With that silly talk, produces 3 units.
 health: 300
+size: 3
 consumes: {
   power: 5.0
   }
-}
+
 plans: [
   {
     unit: needle
-    time: 1570
+    time: 1000
     requirements: [
-      silicon/150
-      lead/200
+      silicon/25
+      lead/10
+      spore/10
+    ]
+  }
+  {
+    unit: Plank
+    time: 1000
+    requirements: [
+      silicon/40
+      metaglass/30
+      spore/20
     ]
   }
     {
     unit: Spoinew
-    time: 3600
+    time: 1000
     requirements: [
-      silicon/100
+      silicon/20
+      spore/20
     ]
   }
 ]

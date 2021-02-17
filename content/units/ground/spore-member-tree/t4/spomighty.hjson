@@ -19,6 +19,7 @@ weapons: [
       type: FlakBulletType
       lifetime: 1000
       speed: 10
+      damage: 14
       frontColor: FFFFFF
       backColor: FFFFFF
       fragBullets: 10

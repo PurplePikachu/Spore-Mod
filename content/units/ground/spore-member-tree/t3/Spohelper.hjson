@@ -17,6 +17,7 @@ weapons: [
     rotate: true
     bullet: {
       type: FlakBulletType
+      damage: 12
       lifetime: 1000
       speed: 10
       frontColor: FFFFFF

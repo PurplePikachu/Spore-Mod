@@ -1,0 +1,31 @@
+type: payload
+name: Chain
+description: A even more deadly box. Something tells me they're naming it after Minecraft things.....
+about: "We got Spore King, and they skipped Leather on this tree, and probs Gold. Even Netherite ain't gonna cut it."
+payloadCapacity: 450
+speed: 2
+flying: true
+health: 2500
+engineOffset: 5
+range: 6
+killshooter: true
+weapons: [
+  {
+    name: Box
+    reload: 10
+    alternate: true
+    shootCone: 120
+    rotate: true
+    range: 6
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 24
+      collidesTeam: true
+      healPercent: 6
+    }
+  }
+]
