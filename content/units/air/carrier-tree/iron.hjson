@@ -1,0 +1,31 @@
+type: payload
+name: Iron
+description: A Minecraft third tier thing. The f**k I know this item.
+about: "Not to be confused with Iron, which is an item."
+payloadCapacity: 700
+speed: 1.5
+flying: true
+health: 4000
+engineOffset: 5
+range: 6
+killshooter: true
+weapons: [
+  {
+    name: Box
+    reload: 10
+    alternate: true
+    shootCone: 120
+    rotate: true
+    range: 6
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 48
+      collidesTeam: true
+      healPercent: 9
+    }
+  }
+]
