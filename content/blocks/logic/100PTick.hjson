@@ -1,0 +1,20 @@
+{
+    "type": "LogicBlock",
+    "range": 2763,
+    "instructionsPerTick": 100,
+    "size": 4,
+    "health": 520,
+    "name": "100PTick",
+    "liquidCapacity": 35,
+    "category": "logic",
+  "consumes": {
+	"liquid": {
+	"liquid": "cyrofluid",
+	"amount": 1.2,	
+	}
+  },
+	"requirements": [
+	{ "item": "spore", "amount": 9000},
+	],
+    "description": "Codenamed 100PTick, by its name, does 2000 ticks, or 2000t/sec. Because on this game, a tick is 0.05 seconds. Also uses quite a LOT of Cyrofluid."
+}
