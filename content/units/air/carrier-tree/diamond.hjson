@@ -1,0 +1,11 @@
+type: payload
+name: Diamond
+description: Can't do anything besides Payload. Still, very durable. 1 million HP?!
+about: "Oh. Back to Minecraft. Very good, PurplePikachu...."
+payloadCapacity: 100000
+speed: 0.5
+flying: true
+health: 1000000
+engineOffset: 5
+range: 6
+killshooter: true
