@@ -24,6 +24,8 @@ weapons: [
       frontColor: FFFFFF
       backColor: FFFFFF
       damage: 24
+      collidesTeam: true
+      healPercent: 3
     }
   }
 ]
