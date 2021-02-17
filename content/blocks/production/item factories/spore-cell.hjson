@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Spore Cell",
+	"description": "Creates the 119th elem- I mean Spores from huge amounts of Spore Pods.",
+	"outputItem": {"item": "Spore", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 5,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "spore-pod", "amount": 12 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "spore-pod", "amount": 700 },
+	],
+	"category": "crafting",
+	"research": "iron-producer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
