@@ -18,6 +18,15 @@ plans: [
     ]
   }
   {
+    unit: box
+    time: 1000
+    requirements: [
+      silicon/30
+      lead/10
+      spore/50
+    ]
+  }
+  {
     unit: Plank
     time: 1000
     requirements: [
