@@ -1,0 +1,29 @@
+type: payload
+name: Stone
+description: A quite complex box. It shoots even dedlier bullets, and now HEALS THINGS
+about: "Sorry guys, no more Crate, we got STONE CRATE!"
+payloadCapacity: 120
+speed: 2
+flying: true
+health: 100
+engineOffset: 5
+range: 6
+killshooter: true
+weapons: [
+  {
+    name: Box
+    reload: 10
+    alternate: true
+    shootCone: 120
+    rotate: true
+    range: 6
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 24
+    }
+  }
+]
