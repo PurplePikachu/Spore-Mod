@@ -1,6 +1,6 @@
 
 type: payload
-name: Needle
+name: Box
 description: A basic helper unit. Carries blocks but does not heal them. 
 about: "I want a payload unit just like the Mono tree! -said Spore family. And they made a worthless one."
 payloadCapacity: 50
