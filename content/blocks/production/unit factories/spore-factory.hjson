@@ -12,23 +12,26 @@ plans: [
     unit: needle
     time: 1000
     requirements: [
-      silicon/150
-      lead/200
+      silicon/25
+      lead/10
+      spore/10
     ]
   }
   {
     unit: Plank
     time: 1000
     requirements: [
-      silicon/150
-      metaglass/200
+      silicon/40
+      metaglass/30
+      spore/20
     ]
   }
     {
     unit: Spoinew
     time: 1000
     requirements: [
-      silicon/100
+      silicon/20
+      spore/20
     ]
   }
 ]
