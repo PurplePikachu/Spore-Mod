@@ -1,0 +1,31 @@
+type: payload
+name: Amethyst
+description: Rather new.
+about: "Apparently they strided away from Minecraft! Nice job! Cave Update, however....."
+payloadCapacity: 6000
+speed: 2
+flying: true
+health: 12000
+engineOffset: 5
+range: 12
+killshooter: true
+weapons: [
+  {
+    name: Box
+    reload: 10
+    alternate: true
+    shootCone: 120
+    rotate: true
+    range: 6
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 100
+      collidesTeam: true
+      healPercent: 3
+    }
+  }
+]
