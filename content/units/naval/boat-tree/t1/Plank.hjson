@@ -21,6 +21,7 @@ weapons: [
       lifetime: 1000
       speed: 10
       frontColor: FFFFFF
+      damage: 60
       backColor: FFFFFF
       fragBullets: 10
       fragBullet: {
