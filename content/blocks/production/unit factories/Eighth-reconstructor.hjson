@@ -25,4 +25,9 @@ upgrades: [
   [Spoinew, Spomember]
   [Plank, boat]
 ]
+requirements: [
+  lead/500
+  spore/100
+  Graphtainium/40
+]
 category: units
