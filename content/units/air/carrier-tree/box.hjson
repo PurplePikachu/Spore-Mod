@@ -1,1 +1,29 @@
 
+type: payload
+name: Needle
+description: A basic helper unit. Carries blocks but does not heal them. 
+about: "I want a payload unit just like the Mono tree! -said Spore family. And they made a worthless one."
+payloadCapacity: 50
+speed: 3
+flying: true
+health: 100
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: Box
+    reload: 10
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 12
+    }
+  }
+]
