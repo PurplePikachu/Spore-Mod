@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Spore Cell",
 	"description": "Creates the 119th elem- I mean Spores from huge amounts of Spore Pods.",
-	"outputItem": {"item": "spore", "amount": 1},
+	"outputItem": {"item": "spore", "amount": 6},
 	"size": 3,
 	"hasPower": true,
 	"hasItems": true,
