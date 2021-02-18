@@ -2,7 +2,7 @@ type: payload
 name: Stone
 description: A quite complex box. It shoots even dedlier bullets, and now HEALS THINGS
 about: "Sorry guys, no more Crate, we got STONE CRATE!"
-payloadCapacity: 120
+payloadCapacity: 330
 speed: 2
 flying: true
 health: 500
