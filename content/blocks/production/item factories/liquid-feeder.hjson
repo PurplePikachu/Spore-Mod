@@ -1,5 +1,5 @@
 type: GenericCrafter
-localizedName: Advanced Melter
+localizedName: Liquid Feeder
 description: "Feeds extracted water from itself with Super Alloy and composes Iron to its vitamins."
 size: 4
 hasPower: true
