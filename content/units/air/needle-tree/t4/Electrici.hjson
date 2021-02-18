@@ -59,7 +59,7 @@ iron/2000
 ]
 }
 name: Electrici
-type: air
+type: flying
 description: "Unit with fast, weak bullets, and strong, slow bullets."
 details: "Basically, they got bored of 1 weapon. So they made 2."
 health: 7000
