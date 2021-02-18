@@ -2,7 +2,7 @@ type: payload
 name: Chain
 description: A even more deadly box. Something tells me they're naming it after Minecraft things.....
 about: "We got Spore King, and they skipped Leather on this tree, and probs Gold. Even Netherite ain't gonna cut it."
-payloadCapacity: 450
+payloadCapacity: 560
 speed: 2
 flying: true
 health: 2500
