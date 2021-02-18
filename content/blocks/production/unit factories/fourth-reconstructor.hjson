@@ -23,5 +23,6 @@ consumes: {
 }
 upgrades: [
   [spark, spear]
+  [stone, chain]
 ]
 category: units
