@@ -1,0 +1,27 @@
+type: Reconstructor
+name: 1/2 Reconstructor
+description: Upgrades Spore Units to their fourth tier. Needs Nutrient as heater.
+size: 5
+research: fourth-reconstructor
+health: 600
+constructTime: 3000
+liquidCapacity: 60
+consumes: {
+  power: 4.8
+    items: {
+      items: [
+        phase/300
+        spore/1000
+        titanium/700
+        thorium/400
+      ]
+    }
+  liquid: {
+    liquid: Nutrient
+    amount: 0.5
+  }
+}
+upgrades: [
+  [spark, spear]
+]
+category: units
