@@ -29,4 +29,11 @@ weapons: [
     }
   }
 ]
-
+research: {
+parent: needle
+requirements: [
+lead/5000
+spore/100
+Graphtainium/400
+]
+}
