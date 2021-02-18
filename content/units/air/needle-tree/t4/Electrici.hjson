@@ -1,0 +1,63 @@
+weapons: [
+{
+name: Electrici Bullet
+reload: 1
+alternate: true
+ejectEffect: none
+top: false
+shootSound: pew
+recoil: 1
+x: 0
+shootY: 4
+y: 0
+rotate: true
+mirror: false
+bullet: {
+type: MissileBulletType
+frontColor: a447eb
+backColor: 6d56bf
+damage: 12
+speed: 8
+lifetime: 30
+knockback: 2.0
+hitSound: none
+width: 6
+height: 8
+despawnEffect: hitBulletSmall
+}
+}
+{
+name: Finally
+x: 6
+y: -3
+reload: 100
+alternate: false
+rotate: true
+bullet: {
+type: MissileBulletType
+frontColor: a447eb
+backColor: 6d56bf
+damage: 4000
+splashDamage: 50
+speed: 4
+lifetime: 55
+knockback: -4.0
+hitSound: explosion
+hitShake: 5
+width: 8
+height: 10
+}
+}
+]
+research:{
+parent: Spear
+requirements: [
+silicon/7000
+titanium/2300
+thorium/4000
+]
+}
+name: Electrici
+type: air
+description: "Unit with fast, weak bullets, and strong, slow bullets."
+details: "Basically, they got bored of 1 weapon. So they made 2."
