@@ -1,8 +1,8 @@
 type: payload
 name: Iron
-description: A Minecraft third tier thing. The f**k I know this item.
+description: A Minecraft third tier thing. The f**k I know this unit.
 about: "Not to be confused with Iron, which is an item."
-payloadCapacity: 700
+payloadCapacity: 3000
 speed: 1.5
 flying: true
 health: 4000
