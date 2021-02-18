@@ -28,3 +28,11 @@ weapons: [
     }
   }
 ]
+research: {
+parent: spore-factory
+requirements: [
+silicon/250
+lead/100
+spore/100
+]
+}
