@@ -24,6 +24,7 @@ upgrades: [
   [needle, spark]
   [Spoinew, Spomember]
   [Plank, boat]
+  [box, stone]
 ]
 requirements: [
   lead/500
