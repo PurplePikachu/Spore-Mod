@@ -6,14 +6,14 @@ placeableLiquid: true
 squareSprite: true
 health: 3050090
 research: {
-  parent: spore-wall
+  parent: large-phase-wall
   requirements: [
     spore/56000
     spore-pod/140000
   ]
 }
 category: defense
-size: 2
+size: 1
 buildVisibility: shown
 alwaysUnlocked: false
 solid: true
