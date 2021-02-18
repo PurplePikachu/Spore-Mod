@@ -1,17 +1,10 @@
 type: Walls
-name: Spore Wall
-description: Clustered wall. Full of a LOT of protection.
+name: Ruby Wall
+description: Tough wall. Has a chance of shocking the attacker.
 destructible: true
 placeableLiquid: true
 squareSprite: true
-health: 50000 
-research: {
-  parent: large-thorium-wall
-  requirements: [
-    spore/14000
-    spore-pod/35000
-  ]
-}
+health: 50000
 category: defense
 size: 1
 buildVisibility: shown
@@ -19,5 +12,12 @@ alwaysUnlocked: false
 solid: true
 requirements: [
   spore/14
-  spore-pod/35
+  spore-pod/35  
 ]
+research: {
+  parent: large-phase-wall
+  requirements: [
+    spore/14000
+    spore-pod/35000    
+  ]
+}
