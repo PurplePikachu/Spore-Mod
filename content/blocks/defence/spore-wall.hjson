@@ -1,6 +1,6 @@
 type: Walls
-name: Ruby Wall
-description: Tough wall. Has a chance of shocking the attacker.
+name: Spore Wall
+description: Tough wall. More good than you might expect.
 destructible: true
 placeableLiquid: true
 squareSprite: true
