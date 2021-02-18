@@ -27,8 +27,8 @@ upgrades: [
   [box, stone]
 ]
 requirements: [
-  lead/500
-  spore/100
+  lead/20
+  spore/50
   Graphtainium/40
 ]
 category: units
