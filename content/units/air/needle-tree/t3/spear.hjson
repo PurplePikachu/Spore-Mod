@@ -29,3 +29,11 @@ weapons: [
     }
   }
 ]
+research: {
+parent: spark
+requirements: [
+spore/25000
+titanium/40000
+thorium/30000
+]
+}
