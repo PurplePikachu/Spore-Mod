@@ -49,8 +49,8 @@ height: 10
 }
 }
 ]
-research:{
-parent: Spear
+research: {
+parent: spear
 requirements: [
 titanium/2300
 thorium/4000
