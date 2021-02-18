@@ -1,0 +1,28 @@
+type: GenericCrafter
+localizedName: Advanced Melter
+description: "Feeds extracted water from itself with Super Alloy and composes Iron to its vitamins."
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 30
+craftTime: 60
+requirements: [
+  copper/200
+  lead/500
+  graphite/200
+]
+consumes: {
+  power: 5.4
+    items: {
+      items: [
+      super-alloy/3
+      Iron/2
+      ]
+   }
+}
+drawer: drawMixer
+outputLiquid: Nutrient/200
+category: crafting
+research: multi-press
