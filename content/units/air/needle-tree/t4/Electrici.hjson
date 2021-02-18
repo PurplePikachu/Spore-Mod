@@ -52,12 +52,14 @@ height: 10
 research:{
 parent: Spear
 requirements: [
-silicon/7000
 titanium/2300
 thorium/4000
+spore/6000
+iron/2000
 ]
 }
 name: Electrici
 type: air
 description: "Unit with fast, weak bullets, and strong, slow bullets."
 details: "Basically, they got bored of 1 weapon. So they made 2."
+health: 7000
