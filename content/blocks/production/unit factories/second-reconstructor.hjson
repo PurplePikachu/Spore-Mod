@@ -22,6 +22,7 @@ consumes: {
   }
 }
 upgrades: [
-  [spark, spear]
+  [spear, Electrici]
+  [chain, iron]
 ]
 category: units
