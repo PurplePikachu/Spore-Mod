@@ -3,7 +3,7 @@ type: Reconstructor
 name: 1/4 Reconstructor
 description: Upgrades Spore Units to their third tier. Needs water as coolant.
 size: 3
-research: spore-factory
+research: Eighth-reconstructor
 health: 600
 constructTime: 300
 liquidCapacity: 60
