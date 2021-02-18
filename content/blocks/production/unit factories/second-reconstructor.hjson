@@ -10,8 +10,8 @@ consumes: {
   power: 4.8
     items: {
       items: [
-        phase/300
-        spore/1000
+        phase-fabric/300
+        spore/1200
         titanium/700
         thorium/400
       ]
