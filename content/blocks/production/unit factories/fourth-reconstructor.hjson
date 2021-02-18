@@ -11,7 +11,7 @@ consumes: {
   power: 4.8
     items: {
       items: [
-        silicon/200
+        spore/200
         titanium/400
         thorium/200
       ]
