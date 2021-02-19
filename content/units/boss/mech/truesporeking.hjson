@@ -5,6 +5,7 @@ description: The TRUE Spore King. May you now die. You cannot see him. Because t
 speed: 2
 boost: true
 health: 8000000
+commandLimit: 8000000
 armor: 5000
 engineOffset: 5
 range: 4
