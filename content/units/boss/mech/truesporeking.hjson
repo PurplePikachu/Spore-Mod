@@ -1,0 +1,35 @@
+
+type: mech
+name: Crux King
+description: The TRUE Spore King. May you now die. You cannot see him. Because the game crashes. Sometimes.
+speed: 2
+boost: true
+health: 8000000
+armor: 5000
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: DED
+    shootSound: shotgun
+    reload: 14
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      damage: 6000
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 55000
+        collidesTeam: true
+        healPercent: 6
+      }
+    }
+  }
