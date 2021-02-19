@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Alloy Charger",
+	"description": "Turns out Surge Alloy is a Creeper. Charges Surge Alloy with tons of power.",
+	"outputItem": {"item": "super-alloy", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 2763,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 12,
+		"items": {
+			"items": [
+				{ "item": "surge-alloy", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "spore-pod", "amount": 700 },
+    { "item": "silicon", "amount": 500 },
+	],
+	"category": "crafting",
+	"research": "graphtainium-fuser",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
