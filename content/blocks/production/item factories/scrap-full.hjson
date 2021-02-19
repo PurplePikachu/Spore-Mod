@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Scrap Fullness",
+	"description": "Mass produces Surge Alloy from just Scrap. Needs big amounts.",
+	"outputItem": {"item": "surge-alloy", "amount": 12},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 2763,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "scrap", "amount": 30 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "spore-pod", "amount": 700 },
+    { "item": "surge-alloy", "amount": 10 },
+    { "item": "scrap", "amount": 700 },
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
