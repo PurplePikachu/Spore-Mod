@@ -1,0 +1,29 @@
+type: mech
+name: Яёsšцґєcтёd Єяadїcaтоя
+description: By its Яцššїa name, a Ressurected Eradicator. Drawed by it's "Impact 8700" power, this thing can withstand even 600 Salvos.
+about: "In the depths of v5, the Crux found an Eradicator, died with some trace behind. They carried it home and ressurected it with the help of the temple of Impact 8700. /n/nSince then, noobs weren't able to kill the endless Eradicators they had. /n/nOf course you have the strength to take it down. Or do you?"
+speed: 0.5
+boost: true
+health: 15200
+armor: 50
+engineOffset: 5
+killshooter: true
+weapons: [
+  {
+    name: The Eradicator Gun
+    range: 45
+    reload: 12
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      damage: 950
+      }
+    }
+  }
+]
