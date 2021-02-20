@@ -1,19 +1,35 @@
 {
 	"type": "GenericCrafter",
 	"name": "Scrap Fullness",
-	"description": "Mass produces Surge Alloy from just Scrap. Needs big amounts.",
-	"outputItem": {"item": "surge-alloy", "amount": 12},
-	"size": 2,
+	"description": "Researched from the Spore, this thing can create any unmodded item from just Scrap.",
+	"outputItem": {"item": "surge-alloy", "amount": 1},
+	{"item": "copper", "amount": 1},
+	{"item": "lead", "amount": 1},
+	{"item": "graphite", "amount": 1},
+	{"item": "metaglass", "amount": 1},
+	{"item": "coal", "amount": 1},
+	{"item": "sand", "amount": 1},
+	{"item": "titanium", "amount": 1},
+	{"item": "thorium", "amount": 1},
+	{"item": "scrap", "amount": 1},
+	{"item": "silicon", "amount": 1},
+	{"item": "plastanium", "amount": 1},
+	{"item": "phase-fabric", "amount": 1},
+	{"item": "surge-alloy", "amount": 1},
+	{"item": "spore-pod", "amount": 1},
+	{"item": "pyratite", "amount": 1},
+	{"item": "blast-compound", "amount": 1},
+	"size": 5,
 	"hasPower": true,
 	"hasItems": true,
 	"itemCapacity": 2763,
 	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 0.75,
+		"power": 4,
 		"items": {
 			"items": [
-				{ "item": "scrap", "amount": 30 }
+				{ "item": "scrap", "amount": 1}
 			]
 		}
 	},
