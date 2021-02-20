@@ -1,7 +1,7 @@
 
 type: mech
 name: Crux King
-description: The TRUE Spore King. May you now die. You cannot see him. Because the game crashes. Sometimes.
+description: The TRUE Spore King. The reason why it's a Dagger, even the game dosen't know.
 speed: 2
 boost: true
 health: 8000000
