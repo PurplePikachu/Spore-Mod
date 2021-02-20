@@ -1,7 +1,7 @@
 type: flying
 name: Needle
 description: A unit. The spore equivalent of Flare.
-about: "The first unit in the Needle line, and the first unit of the Needle series."
+about: "The first unit in the Needle line, and the first unit of the Expanded Crux series."
 speed: 3
 flying: true
 health: 100
