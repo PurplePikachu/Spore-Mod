@@ -6,6 +6,7 @@ destructible: true
 placeableLiquid: true
 squareSprite: true
 health: 16000
+size: 2
 research: {
   parent: ruby-wall
   requirements: [
