@@ -10,9 +10,10 @@ consumes: {
   power: 4.8
     items: {
       items: [
-        silicon/200
-        titanium/400
-        metaglass/200
+        spore/100
+        silicon/10
+        titanium/40
+        metaglass/50
       ]
     }
   liquid: {
