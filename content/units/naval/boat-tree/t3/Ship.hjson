@@ -1,0 +1,33 @@
+type: naval
+name: Ship
+description: Plank 3.0. Wait until this is Plank 3.1...
+speed: 2
+boost: true
+health: 2300
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: log-wood-planks
+    shootSound: shotgun
+    reload: 12
+    range: 8
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      damage: 140
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 90
+      }
+    }
+  }
+]
