@@ -25,6 +25,7 @@ upgrades: [
   [spark, spear]
   [stone, chain]
   [Spomember, Spohelper]
+  [boat, ship]
 ]
 requirements: [
   spore/600
