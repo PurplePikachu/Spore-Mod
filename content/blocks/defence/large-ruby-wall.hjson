@@ -1,12 +1,11 @@
   
 type: Walls
-name: Large Ruby Wall
-description: Tough wall. Has a better chance of shocking the attacker than it's smaller form, but weaker damage.
+name: Profector Ruby Wall
+description: Tough wall. Has a better chance of shocking the attacker than it's other form, but weaker damage.
 destructible: true
 placeableLiquid: true
 squareSprite: true
-health: 16000
-size: 2
+health: 8000
 research: {
   parent: ruby-wall
   requirements: [
