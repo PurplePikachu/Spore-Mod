@@ -1,35 +1,6 @@
 
-type: Reconstructor
 name: 1/4 Reconstructor
 description: Upgrades Spore Units to their third tier. Needs water as coolant.
-size: 3
-research: Eighth-reconstructor
-health: 600
-constructTime: 300
-liquidCapacity: 60
-consumes: {
-  power: 4.8
-    items: {
-      items: [
-        spore/200
-        titanium/400
-        thorium/200
-      ]
-    }
-  liquid: {
-    liquid: water
-    amount: 0.6
-  }
-}
-upgrades: [
-  [spark, spear]
-  [stone, chain]
-]
-category: units
-  
-type: Reconstructor
-name: 1/8 Reconstructor
-description: Upgrades Spore Units to their second tier. Needs water as coolant.
 size: 3
 research: spore-factory
 health: 600
@@ -41,7 +12,8 @@ consumes: {
       items: [
         silicon/200
         titanium/400
-        metaglass/200
+        Graphtainium/200
+        spore/300
       ]
     }
   liquid: {
@@ -50,13 +22,14 @@ consumes: {
   }
 }
 upgrades: [
-  [needle, spark]
-  [Spomember, Spohelper]
+  [spark, spear]
   [stone, chain]
+  [Spomember, Spohelper]
 ]
 requirements: [
-  lead/20
-  spore/50
-  Graphtainium/40
+  spore/600
+  plastanium/30
+  lead/1200
+  silicon/800
 ]
 category: units
