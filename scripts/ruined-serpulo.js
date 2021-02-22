@@ -16,7 +16,7 @@ const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 1, 0.5, {
     alwaysUnlocked: true
 });
 
-    const scrap2= extend(SectorPreset, scrap2", ruinedserpulo, 271, {
+    const scrapworld= extend(SectorPreset, scrapworld", ruinedserpulo, 271, {
     captureWave: 25,
     localizedName: "Scrap World",
     difficulty: 8,
@@ -28,7 +28,7 @@ const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 1, 0.5, {
 });
 module.exports = {
     ruinedserpulo: ruinedserpulo,
-    scrap2: Scrap World,
+    scrapworld: Scrap World,
     imp7800: Impact7800,
     study: Studier Complex
 }
