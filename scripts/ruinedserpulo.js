@@ -33,7 +33,7 @@ ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
     difficulty: 10,
 });
 module.exports = {
-    ruinedserpulo: ruinedserpulo.js,
+    ruinedserpulo: ruinedserpulo,
     scrapworld: Scrap World,
     imp7800: Impact7800,
     study: Studier Complex
