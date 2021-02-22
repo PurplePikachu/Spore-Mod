@@ -29,6 +29,6 @@ const serpulo2 = extend(Planet, "serpulo2", Planets.sun, 1, 0.5, {
 module.exports = {
     serpulo2: serpulo2,
     scrap2: Scrap World,
-    imp7800: Impact 7800,
+    imp7800: Impact7800,
     study: Studier Complex
 }
