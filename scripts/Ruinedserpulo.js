@@ -16,7 +16,8 @@ ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
     captureWave: 20,
     localizedName: "Ground One",
     difficulty: 1,
-    description: "First zone, first RUINED zone.
+    description: "First zone, first RUINED zone.",
+    alwaysUnlocked: true
     
     const imp7800 = extend(SectorPreset, "imp7800", ruinedserpulo, 78, {
     captureWave: 40,
@@ -28,14 +29,14 @@ ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
     const scrapworld= extend(SectorPreset, "scrapworld", ruinedserpulo, 271, {
     captureWave: 25,
     localizedName: "Scrap World",
-    description: "Wait, that's not 271! That's completely different than before!"
-    difficulty: 8,
+    description: "Wait, that's not 271! That's completely different than before!",
+    difficulty: 8
 });
     const study= extend(SectorPreset, "study", ruinedserpulo, 93, {
     captureWave: 35,
     localizedName: "Studier Complex",
-    description: "Planetary Launch Terminal. Hope you are familiar with this!"
-    difficulty: 10,
+    description: "Planetary Launch Terminal. Hope you are familiar with this!",
+    difficulty: 10
 });
 module.exports = {
     ruinedserpulo: Ruinedserpulo,
