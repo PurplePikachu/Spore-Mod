@@ -10,7 +10,7 @@ const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 1, 0.5, {
     atmosphereRadOut: 0.3,
     localizedName: "Ruined Serpulo"
 });
-templura.meshLoader = () => extend(HexMesh, templura, 6, {});
+ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
     
     const imp7800 = extend(SectorPreset, "imp7800", ruinedserpulo, 78, {
     captureWave: 40,
