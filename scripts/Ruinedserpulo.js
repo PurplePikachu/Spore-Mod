@@ -1,13 +1,13 @@
-const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 1, 0.5, {
+const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 3, 3, {
     generator: new SerpuloPlanetGenerator(),
     meshLoader: () => new HexMesh(this, 6),
     bloom: true,
-    radius: 2,
+    radius: 1,
     accessible: true,
     hasAtmosphere: true,
     atmosphereColor: Color.valueOf("#808080"),
-    atmosphereRadIn: 0.02,
-    atmosphereRadOut: 0.3,
+    atmosphereRadIn: 0.06,
+    atmosphereRadOut: 0.12,
     localizedName: "Ruined Serpulo"
 });
 ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
