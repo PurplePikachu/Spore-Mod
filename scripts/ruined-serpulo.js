@@ -1,5 +1,6 @@
 const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 1, 0.5, {
     generator: new SerpuloPlanetGenerator(),
+    meshLoader: () => new HexMesh(this, 6),
     bloom: true,
     radius: 2,
     accessible: true,
