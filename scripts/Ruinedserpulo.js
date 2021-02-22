@@ -5,43 +5,42 @@ const ruinedserpulo = extend(Planet, "ruinedserpulo", Planets.sun, 3, 3, {
     radius: 1,
     accessible: true,
     hasAtmosphere: true,
-    atmosphereColor: Color.valueOf("#808080"),
+    atmosphereColor: Color.valueOf("80ff00"),
     atmosphereRadIn: 0.06,
-    atmosphereRadOut: 0.12,
+    atmosphereRadOut: 0.09,
     localizedName: "Ruined Serpulo"
 });
-ruinedserpulo.meshLoader = () => extend(HexMesh, ruinedserpulo, 6, {});
+templura.meshLoader = () => extend(HexMesh, templura, 6, {});
 
-    const ground1 = extend(SectorPreset, "ground1", ruinedserpulo, 15, {
-    captureWave: 20,
-    localizedName: "Ground One",
-    difficulty: 1,
-    description: "First zone, first RUINED zone.",
-    alwaysUnlocked: true
-    
-    const imp7800 = extend(SectorPreset, "imp7800", ruinedserpulo, 78, {
-    captureWave: 40,
-    localizedName: "Impact 7800",
-    difficulty: 3,
-    description: "Impact 0078, partially conquered. You get the idea, Sufficient amount of resources, Criss-crossing walls making it difficult to fully expand base, Enemy has one spawn point with air attacks, yadda yadda yadda."
-});
-
-    const scrapworld= extend(SectorPreset, "scrapworld", ruinedserpulo, 271, {
-    captureWave: 25,
+const ScrapWorld = extend(SectorPreset, "ScrapWorld", ruinedserpulo, 100, {
+    captureWave: 14,
+    description: "Collect some scrap, turn it to everything, leave.",
     localizedName: "Scrap World",
-    description: "Wait, that's not 271! That's completely different than before!",
-    difficulty: 8
-});
-    const study= extend(SectorPreset, "study", ruinedserpulo, 93, {
-    captureWave: 35,
-    localizedName: "Studier Complex",
-    description: "Planetary Launch Terminal. Hope you are familiar with this!",
     difficulty: 10
 });
+
+const StudierComplex = extend(SectorPreset, "StudierComplex", ruinedserpulo, 130, {
+    captureWave: 30,
+    localizedName: "Studier Complex",
+    difficulty: 7
+});
+
+const GroundOne = extend(SectorPreset, "GroundOne", ruinedserpulo, 15, {
+    captureWave: 20,
+    localizedName: "Ground One",
+    difficulty: 3,
+    alwaysUnlocked: true
+});
+
+const Impact8700 = extend(SectorPreset, "Impact8700", ruinedserpulo, 78, {
+    captureWave: 40,
+    localizedName: "00٢8 ɈɔɒqmI",
+    difficulty: 5
+})
+
 module.exports = {
     ruinedserpulo: Ruinedserpulo,
-    scrapworld: Scrap World,
-    imp7800: Impact7800,
-    study: Studier Complex,
-    ground1: GroundOne
+    GroundOne: GroundOne,
+    Impact8700: Impact8700,
+    StudierComplex: Studier Complex
 }
