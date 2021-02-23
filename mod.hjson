@@ -2,7 +2,7 @@ name: "Purple Mod"
 displayName: "Spore Mod"
 author: PurplePikachu
 description: "A disturbance in the force comes an alternate universe, full of new units and reverse timelines. This time, the Sharded team failed to conquer the entire planet. Since then, they have been researching new technologies from other universes. Will you be able to conquer this other planet?"
-version: "Major Outbreak Alpha (Alpha 1.3)"
+version: "Alpha 1.5"
 minGameVersion: "123.1"
 dependencies: [ ]
 hidden: false
